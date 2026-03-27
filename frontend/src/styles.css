@@ -1,0 +1,71 @@
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: #0b1220;
+  color: #e8eefc;
+}
+
+a {
+  color: #8ab4ff;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px 0;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  opacity: 0.85;
+  margin-bottom: 6px;
+}
+
+input,
+select,
+button {
+  border-radius: 10px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(0, 0, 0, 0.2);
+  color: #e8eefc;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.primary {
+  background: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.muted {
+  opacity: 0.8;
+}
+
+.error {
+  color: #ff8a8a;
+  margin-top: 10px;
+}
+
